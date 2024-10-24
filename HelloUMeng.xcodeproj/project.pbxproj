@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48246A592CC937AE00A9D29A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48246A562CC937AE00A9D29A /* ContentView.swift */; };
+		48246A5A2CC937AE00A9D29A /* HelloUMengApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48246A572CC937AE00A9D29A /* HelloUMengApp.swift */; };
+		48246A5B2CC937AE00A9D29A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48246A532CC937AE00A9D29A /* Preview Assets.xcassets */; };
+		48246A5C2CC937AE00A9D29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48246A552CC937AE00A9D29A /* Assets.xcassets */; };
+		4883DCA92CC947C5006355C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4883DCA82CC947C5006355C2 /* AppDelegate.swift */; };
+		4883DCAE2CC94916006355C2 /* UMAnalyticsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4883DCAA2CC94916006355C2 /* UMAnalyticsSwift.swift */; };
+		4883DCAF2CC94916006355C2 /* UMCommonLogSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4883DCAC2CC94916006355C2 /* UMCommonLogSwift.swift */; };
+		4883DCB02CC94916006355C2 /* UMCommonSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4883DCAB2CC94916006355C2 /* UMCommonSwift.swift */; };
+		8993846133E0E39E8F3DEED9 /* Pods_HelloUMeng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE410431552868310A69E43 /* Pods_HelloUMeng.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34B32CA8DDB6BC46AF1936E3 /* Pods-HelloUMeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloUMeng.debug.xcconfig"; path = "Target Support Files/Pods-HelloUMeng/Pods-HelloUMeng.debug.xcconfig"; sourceTree = "<group>"; };
+		48246A422CC9340400A9D29A /* HelloUMeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUMeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48246A532CC937AE00A9D29A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48246A552CC937AE00A9D29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48246A562CC937AE00A9D29A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48246A572CC937AE00A9D29A /* HelloUMengApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUMengApp.swift; sourceTree = "<group>"; };
+		4883DCA52CC94118006355C2 /* HelloUMeng-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloUMeng-Bridging-Header.h"; sourceTree = "<group>"; };
+		4883DCA82CC947C5006355C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4883DCAA2CC94916006355C2 /* UMAnalyticsSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMAnalyticsSwift.swift; sourceTree = "<group>"; };
+		4883DCAB2CC94916006355C2 /* UMCommonSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMCommonSwift.swift; sourceTree = "<group>"; };
+		4883DCAC2CC94916006355C2 /* UMCommonLogSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMCommonLogSwift.swift; sourceTree = "<group>"; };
+		4883DCB12CC94FC5006355C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6EE410431552868310A69E43 /* Pods_HelloUMeng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloUMeng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51F17057045DEF2B14867FB /* Pods-HelloUMeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloUMeng.release.xcconfig"; path = "Target Support Files/Pods-HelloUMeng/Pods-HelloUMeng.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48246A3F2CC9340400A9D29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8993846133E0E39E8F3DEED9 /* Pods_HelloUMeng.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48246A392CC9340400A9D29A = {
+			isa = PBXGroup;
+			children = (
+				48246A582CC937AE00A9D29A /* HelloUMeng */,
+				48246A432CC9340400A9D29A /* Products */,
+				7CFEE1170C91221B2A77EBA4 /* Pods */,
+				ED25E107971984E6BB3272AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48246A432CC9340400A9D29A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48246A422CC9340400A9D29A /* HelloUMeng.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48246A542CC937AE00A9D29A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48246A532CC937AE00A9D29A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48246A582CC937AE00A9D29A /* HelloUMeng */ = {
+			isa = PBXGroup;
+			children = (
+				4883DCB12CC94FC5006355C2 /* Info.plist */,
+				4883DCAD2CC94916006355C2 /* UMSwift */,
+				48246A542CC937AE00A9D29A /* Preview Content */,
+				48246A552CC937AE00A9D29A /* Assets.xcassets */,
+				48246A562CC937AE00A9D29A /* ContentView.swift */,
+				48246A572CC937AE00A9D29A /* HelloUMengApp.swift */,
+				4883DCA82CC947C5006355C2 /* AppDelegate.swift */,
+				4883DCA52CC94118006355C2 /* HelloUMeng-Bridging-Header.h */,
+			);
+			path = HelloUMeng;
+			sourceTree = "<group>";
+		};
+		4883DCAD2CC94916006355C2 /* UMSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4883DCAA2CC94916006355C2 /* UMAnalyticsSwift.swift */,
+				4883DCAB2CC94916006355C2 /* UMCommonSwift.swift */,
+				4883DCAC2CC94916006355C2 /* UMCommonLogSwift.swift */,
+			);
+			path = UMSwift;
+			sourceTree = "<group>";
+		};
+		7CFEE1170C91221B2A77EBA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34B32CA8DDB6BC46AF1936E3 /* Pods-HelloUMeng.debug.xcconfig */,
+				E51F17057045DEF2B14867FB /* Pods-HelloUMeng.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED25E107971984E6BB3272AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE410431552868310A69E43 /* Pods_HelloUMeng.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48246A412CC9340400A9D29A /* HelloUMeng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48246A502CC9340500A9D29A /* Build configuration list for PBXNativeTarget "HelloUMeng" */;
+			buildPhases = (
+				0ABDCB2DEA429F07BC6979E8 /* [CP] Check Pods Manifest.lock */,
+				48246A3E2CC9340400A9D29A /* Sources */,
+				48246A3F2CC9340400A9D29A /* Frameworks */,
+				48246A402CC9340400A9D29A /* Resources */,
+				EC1DA834D4136A0F39E21732 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloUMeng;
+			productName = HelloUMeng;
+			productReference = 48246A422CC9340400A9D29A /* HelloUMeng.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48246A3A2CC9340400A9D29A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					48246A412CC9340400A9D29A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 48246A3D2CC9340400A9D29A /* Build configuration list for PBXProject "HelloUMeng" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48246A392CC9340400A9D29A;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 48246A432CC9340400A9D29A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48246A412CC9340400A9D29A /* HelloUMeng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48246A402CC9340400A9D29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48246A5B2CC937AE00A9D29A /* Preview Assets.xcassets in Resources */,
+				48246A5C2CC937AE00A9D29A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ABDCB2DEA429F07BC6979E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloUMeng-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1DA834D4136A0F39E21732 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloUMeng/Pods-HelloUMeng-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloUMeng/Pods-HelloUMeng-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloUMeng/Pods-HelloUMeng-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48246A3E2CC9340400A9D29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4883DCA92CC947C5006355C2 /* AppDelegate.swift in Sources */,
+				4883DCAE2CC94916006355C2 /* UMAnalyticsSwift.swift in Sources */,
+				4883DCAF2CC94916006355C2 /* UMCommonLogSwift.swift in Sources */,
+				4883DCB02CC94916006355C2 /* UMCommonSwift.swift in Sources */,
+				48246A592CC937AE00A9D29A /* ContentView.swift in Sources */,
+				48246A5A2CC937AE00A9D29A /* HelloUMengApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48246A4E2CC9340500A9D29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48246A4F2CC9340500A9D29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48246A512CC9340500A9D29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B32CA8DDB6BC46AF1936E3 /* Pods-HelloUMeng.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloUMeng/Preview Content\"";
+				DEVELOPMENT_TEAM = E43X39NDRU;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloUMeng/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.crazyit.HelloUMeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloUMeng/HelloUMeng-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48246A522CC9340500A9D29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51F17057045DEF2B14867FB /* Pods-HelloUMeng.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloUMeng/Preview Content\"";
+				DEVELOPMENT_TEAM = E43X39NDRU;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloUMeng/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.crazyit.HelloUMeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloUMeng/HelloUMeng-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48246A3D2CC9340400A9D29A /* Build configuration list for PBXProject "HelloUMeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48246A4E2CC9340500A9D29A /* Debug */,
+				48246A4F2CC9340500A9D29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48246A502CC9340500A9D29A /* Build configuration list for PBXNativeTarget "HelloUMeng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48246A512CC9340500A9D29A /* Debug */,
+				48246A522CC9340500A9D29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48246A3A2CC9340400A9D29A /* Project object */;
+}

@@ -1,0 +1,30 @@
+PODS:
+  - UMAPM (1.9.6):
+    - UMCommon
+  - UMCCommonLog (2.0.2)
+  - UMCommon (7.4.7):
+    - UMDevice
+  - UMDevice (3.4.0)
+
+DEPENDENCIES:
+  - UMAPM
+  - UMCCommonLog
+  - UMCommon
+  - UMDevice
+
+SPEC REPOS:
+  trunk:
+    - UMAPM
+    - UMCCommonLog
+    - UMCommon
+    - UMDevice
+
+SPEC CHECKSUMS:
+  UMAPM: 20153fc2f43741951f58493107f5d0c3583477c7
+  UMCCommonLog: bea707e50c85cef4b0eb47cc5c7226bb843245ca
+  UMCommon: 8b4cd0423297c39bca6eea1ec896558b40e5bcf7
+  UMDevice: dcdf7ec167387837559d149fbc7d793d984faf82
+
+PODFILE CHECKSUM: cdf8151defbd383d3795a28287e3d8a1224b74a2
+
+COCOAPODS: 1.15.2
